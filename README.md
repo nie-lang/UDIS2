@@ -4,4 +4,4 @@
 <p align="center">` School of Information and Communication Engineering, University of Electronic Science and Technology of China</p>
 
 ## <p align="center">Paper and Code</p>
-The paper will be available soon and the code will be released if our paper is accepted.
+The paper is available at https://arxiv.org/abs/2302.08207 and the code will be released soon if our paper is accepted.
