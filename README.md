@@ -20,8 +20,8 @@ We implement this work with Ubuntu, 3090Ti, and CUDA11. Refer to [environment.ym
 
 #### How to run it
 Similar to UDIS, we also implement this solution in two stages:
-* Stage 1 (unsupervised warp): please refer to  [Warp/readme.md]([https://github.com/nie-lang/UnsupervisedDeepImageStitching/blob/main/ImageAlignment/ImageAlignment.md](https://github.com/nie-lang/UDIS2/blob/main/Warp/readme.md)).
-* Stage 2 (unsupervised composition): please refer to .
+* Stage 1 (unsupervised warp): please refer to  [Warp/readme.md](https://github.com/nie-lang/UDIS2/blob/main/Warp/readme.md)).
+* Stage 2 (unsupervised composition): please refer to [Composition/readme.md](https://github.com/nie-lang/UDIS2/blob/main/Composition/readme.md)).
 
 
 
