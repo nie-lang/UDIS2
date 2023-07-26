@@ -1,1 +1,33 @@
+## Train on UDIS-D
+Set the training dataset path in Warp/Codes/train.py.
+
+```
+python train_H.py
+```
+
+## Test on UDIS-D
+Our pretrained homography model can be available at  or .
+#### Calculate PSNR/SSIM
+Set the training dataset path in Warp/Codes/test.py.
+
+```
+python test.py
+```
+
+#### Generate the warped images and corresponding masks
+Set the training/testing dataset path in Warp/Codes/test_output.py.
+
+```
+python test_output.py
+```
+The warped images and masks will be generated and saved at the original training/testing dataset path. The results of average fusion will be saved at the current path.
+
+## Test on other datasets
+When testing on other datasets with different scenes and resolutions, we apply the iterative warp adaption to get better alignment performance.
+
+Set the 'path/img1_name/img2_name' in Warp/Codes/test_output.py. (By default, both img1 and img2 are placed under 'path')
+```
+python adaption.py
+```
+The results before/after adaption will be generated and saved at 'path'.
 
