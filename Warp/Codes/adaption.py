@@ -164,7 +164,7 @@ if __name__=="__main__":
 
     #nl: add arguments
     parser.add_argument('--max_iter', type=int, default=50)
-    parser.add_argument('--path', type=str, default='../Carpark-DHW/')
+    parser.add_argument('--path', type=str, default='../../Carpark-DHW/')
     parser.add_argument('--img1_name', type=str, default='input1.jpg')
     parser.add_argument('--img2_name', type=str, default='input2.jpg')
 
