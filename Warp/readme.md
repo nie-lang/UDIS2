@@ -6,7 +6,7 @@ python train_H.py
 ```
 
 ## Test on UDIS-D
-Our pre-trained homography model can be available at [Google Drive]() or [Baidu Cloud](https://pan.baidu.com/s/1Fx6YnQi9B2wvP_TOVAaBEA)(Extraction code: 1234).
+The pre-trained model of warp is available at [Google Drive]() or [Baidu Cloud](https://pan.baidu.com/s/1Fx6YnQi9B2wvP_TOVAaBEA)(Extraction code: 1234).
 #### Calculate PSNR/SSIM
 Set the training dataset path in Warp/Codes/test.py.
 
