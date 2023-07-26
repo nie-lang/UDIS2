@@ -6,7 +6,7 @@
 ![image](https://github.com/nie-lang/UDIS2/blob/main/fig1.png)
 
 ## Dataset (UDIS-D)
-We use the UDIS-D dataset to train and evaluate our method. Please refer to ([UDIS](https://github.com/nie-lang/UnsupervisedDeepImageStitching)) for more details about this dataset.
+We use the UDIS-D dataset to train and evaluate our method. Please refer to [UDIS](https://github.com/nie-lang/UnsupervisedDeepImageStitching) for more details about this dataset.
 
 
 ## Code
@@ -16,7 +16,7 @@ We use the UDIS-D dataset to train and evaluate our method. Please refer to ([UD
 * scikit-image 0.15.0
 * tensorboard 2.9.0
 
-We implement this work with Ubuntu, 3090Ti, and CUDA11. Refer to ([environment.yml](https://github.com/nie-lang/UDIS2/blob/main/environment.yml)) for more details.
+We implement this work with Ubuntu, 3090Ti, and CUDA11. Refer to [environment.yml](https://github.com/nie-lang/UDIS2/blob/main/environment.yml) for more details.
 
 #### How to run it
 Similar to UDIS, we also implement this solution in two stages:
