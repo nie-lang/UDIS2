@@ -30,15 +30,12 @@ If you have any questions about this project, please feel free to drop me an ema
 
 NIE Lang -- nielang@bjtu.edu.cn
 ```
-@ARTICLE{9472883,
+@article{nie2023learning,
+  title={Learning Thin-Plate Spline Motion and Seamless Composition for Parallax-Tolerant Unsupervised Deep Image Stitching},
   author={Nie, Lang and Lin, Chunyu and Liao, Kang and Liu, Shuaicheng and Zhao, Yao},
-  journal={IEEE Transactions on Image Processing}, 
-  title={Unsupervised Deep Image Stitching: Reconstructing Stitched Features to Images}, 
-  year={2021},
-  volume={30},
-  number={},
-  pages={6184-6197},
-  doi={10.1109/TIP.2021.3092828}}
+  journal={arXiv preprint arXiv:2302.08207},
+  year={2023}
+}
 ```
 
 ## References
