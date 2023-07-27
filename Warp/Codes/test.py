@@ -25,6 +25,8 @@ def create_gif(image_list, gif_name, duration=0.35):
 
 def test(args):
 
+    os.environ['CUDA_DEVICES_ORDER'] = "PCI_BUS_ID"
+    os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu
 
     # dataset
     test_data = TestDataset(data_path=args.test_path)
@@ -110,6 +112,7 @@ if __name__=="__main__":
 
     parser = argparse.ArgumentParser()
 
+    parser.add_argument('--gpu', type=str, default='0')
     parser.add_argument('--batch_size', type=int, default=1)
     parser.add_argument('--test_path', type=str, default='/opt/data/private/nl/Data/UDIS-D/testing/')
 
