@@ -27,7 +27,7 @@ When testing on other datasets with different scenes and resolutions, we apply t
 
 Set the 'path/img1_name/img2_name' in Warp/Codes/test_output.py. (By default, both img1 and img2 are placed under 'path')
 ```
-python adaption.py
+python test_other.py
 ```
 The results before/after adaption will be generated and saved at 'path'.
 
