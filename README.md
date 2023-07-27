@@ -30,13 +30,14 @@ If you have any questions about this project, please feel free to drop me an ema
 
 NIE Lang -- nielang@bjtu.edu.cn
 ```
-@article{nie2023learning,
-  title={Learning Thin-Plate Spline Motion and Seamless Composition for Parallax-Tolerant Unsupervised Deep Image Stitching},
-  author={Nie, Lang and Lin, Chunyu and Liao, Kang and Liu, Shuaicheng and Zhao, Yao},
+@article{nie2023parallaxtolerant,
+  title={Parallax-Tolerant Unsupervised Deep Image Stitching},
+  author={Lang Nie and Chunyu Lin and Kang Liao and Shuaicheng Liu and Yao Zhao},
   journal={arXiv preprint arXiv:2302.08207},
   year={2023}
 }
 ```
+
 
 ## References
 [1] L. Nie, C. Lin, K. Liao, M. Liu, and Y. Zhao, “A view-free image stitching network based on global homography,” Journal of Visual Communication and Image Representation, p. 102950, 2020.  
