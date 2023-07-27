@@ -55,6 +55,9 @@ if not os.path.exists(MODEL_DIR):
 
 def train(args):
 
+    os.environ['CUDA_DEVICES_ORDER'] = "PCI_BUS_ID"
+    os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu
+    
     # define the network
     net = Network()
     if torch.cuda.is_available():
@@ -163,6 +166,7 @@ if __name__=="__main__":
     parser = argparse.ArgumentParser()
 
     #nl: add arguments
+    parser.add_argument('--gpu', type=str, default='0')
     parser.add_argument('--max_iter', type=int, default=50)
     parser.add_argument('--path', type=str, default='../../Carpark-DHW/')
     parser.add_argument('--img1_name', type=str, default='input1.jpg')
