@@ -27,6 +27,9 @@ if not os.path.exists(SUMMARY_DIR):
 
 def train(args):
 
+    os.environ['CUDA_DEVICES_ORDER'] = "PCI_BUS_ID"
+    os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu
+    
     # define dataset
     train_data = TrainDataset(data_path=args.train_path)
     train_loader = DataLoader(dataset=train_data, batch_size=args.batch_size, num_workers=4, shuffle=True, drop_last=True)
@@ -156,6 +159,7 @@ if __name__=="__main__":
     parser = argparse.ArgumentParser()
 
     # add arguments
+    parser.add_argument('--gpu', type=str, default='0')
     parser.add_argument('--batch_size', type=int, default=4)
     parser.add_argument('--max_epoch', type=int, default=100)
     parser.add_argument('--train_path', type=str, default='/opt/data/private/nl/Data/UDIS-D/training/')
