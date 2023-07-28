@@ -8,7 +8,7 @@ python train_H.py
 ## Test on UDIS-D
 The pre-trained model of warp is available at [Google Drive](https://drive.google.com/file/d/1GBwB0y3tUUsOYHErSqxDxoC_Om3BJUEt/view?usp=sharing) or [Baidu Cloud](https://pan.baidu.com/s/1Fx6YnQi9B2wvP_TOVAaBEA)(Extraction code: 1234).
 #### Calculate PSNR/SSIM
-Set the training dataset path in Warp/Codes/test.py.
+Set the testing dataset path in Warp/Codes/test.py.
 
 ```
 python test.py
