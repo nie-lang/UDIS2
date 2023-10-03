@@ -30,10 +30,11 @@ If you have any questions about this project, please feel free to drop me an ema
 
 NIE Lang -- nielang@bjtu.edu.cn
 ```
-@article{nie2023parallaxtolerant,
+@inproceedings{nie2023parallax,
   title={Parallax-Tolerant Unsupervised Deep Image Stitching},
-  author={Lang Nie and Chunyu Lin and Kang Liao and Shuaicheng Liu and Yao Zhao},
-  journal={arXiv preprint arXiv:2302.08207},
+  author={Nie, Lang and Lin, Chunyu and Liao, Kang and Liu, Shuaicheng and Zhao, Yao},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={7399--7408},
   year={2023}
 }
 ```
