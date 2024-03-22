@@ -25,7 +25,7 @@ The warped images and masks will be generated and saved at the original training
 ## Test on other datasets
 When testing on other datasets with different scenes and resolutions, we apply the iterative warp adaption to get better alignment performance.
 
-Set the 'path/img1_name/img2_name' in Warp/Codes/test_output.py. (By default, both img1 and img2 are placed under 'path')
+Set the 'path/img1_name/img2_name' in Warp/Codes/test_other.py. (By default, both img1 and img2 are placed under 'path')
 ```
 python test_other.py
 ```
