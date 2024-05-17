@@ -120,7 +120,8 @@ def train(args):
 
 
         if current_iter == 1:
-            output = get_stitched_result(input1_tensor, input2_tensor, rigid_mesh, mesh)
+            with torch.no_grad():
+                output = get_stitched_result(input1_tensor, input2_tensor, rigid_mesh, mesh)
             cv2.imwrite( args.path+ 'before_optimization.jpg', output['stitched'][0].cpu().detach().numpy().transpose(1,2,0))
             cv2.imwrite( args.path+ 'before_optimization_mesh.jpg', output['stitched_mesh'])
 
