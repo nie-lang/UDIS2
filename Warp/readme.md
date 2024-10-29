@@ -2,7 +2,7 @@
 Set the training dataset path in Warp/Codes/train.py.
 
 ```
-python train_H.py
+python train.py
 ```
 
 ## Test on UDIS-D
